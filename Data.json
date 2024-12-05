@@ -22,10 +22,5 @@
         "isactive": true
       }
     ],
-    "userNuevo": {
-      "username": "newuser",
-      "email": "newuser@example.com",
-      "password": "newpassword",
-      "isactive": true
-    }
+    "reservas":[]
   }
