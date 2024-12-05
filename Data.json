@@ -1,26 +1,84 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "username": "johndoe",
-        "email": "johndoe@example.com",
-        "password": "1234password",
-        "isactive": true
-      },
-      {
-        "id": 2,
-        "username": "janedoe",
-        "email": "janedoe@example.com",
-        "password": "securepass456",
-        "isactive": false
-      },
-      {
-        "id": 3,
-        "username": "mike_smith",
-        "email": "mikesmith@example.com",
-        "password": "mypassword789",
-        "isactive": true
-      }
-    ],
-    "reservas":[]
-  }
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "email": "johndoe@example.com",
+      "password": "1234password",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "username": "janedoe",
+      "email": "janedoe@example.com",
+      "password": "securepass456",
+      "isactive": false
+    },
+    {
+      "id": 3,
+      "username": "mike_smith",
+      "email": "mikesmith@example.com",
+      "password": "mypassword789",
+      "isactive": true
+    }
+  ],
+  "vehiculos": [
+    {
+      "id": 1,
+      "tipo": "Van",
+      "capacidadPasajeros": 12,
+      "disponibilidad": true,
+      "precioBase": 35000,
+      "descripcion": "Van espaciosa para grupos grandes o equipaje."
+    },
+    {
+      "id": 2,
+      "tipo": "Mini-Bus",
+      "capacidadPasajeros": 16,
+      "disponibilidad": true,
+      "precioBase": 45000,
+      "descripcion": "Mini-bus con capacidad para 16 personas."
+    },
+    {
+      "id": 3,
+      "tipo": "Transfer",
+      "capacidadPasajeros": 4,
+      "disponibilidad": true,
+      "precioBase": 25000,
+      "descripcion": "Vehículo cómodo y económico para hasta 4 personas."
+    },
+    {
+      "id": 4,
+      "tipo": "Auto Sedán",
+      "capacidadPasajeros": 4,
+      "disponibilidad": true,
+      "precioBase": 18000,
+      "descripcion": "Auto sedán ideal para viajes de negocios o familias pequeñas."
+    },
+    {
+      "id": 5,
+      "tipo": "SUV",
+      "capacidadPasajeros": 6,
+      "disponibilidad": true,
+      "precioBase": 28000,
+      "descripcion": "SUV con espacio para 6 pasajeros y comodidad extra."
+    },
+    {
+      "id": 6,
+      "tipo": "Camioneta",
+      "capacidadPasajeros": 5,
+      "disponibilidad": true,
+      "precioBase": 30000,
+      "descripcion": "Camioneta perfecta para viajes más largos o con carga adicional."
+    },
+    {
+      "id": 7,
+      "tipo": "Auto de Lujo",
+      "capacidadPasajeros": 4,
+      "disponibilidad": true,
+      "precioBase": 50000,
+      "descripcion": "Auto de lujo para quienes buscan comodidad y estilo."
+    }
+  ],
+  "reservas": []
+}
