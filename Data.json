@@ -1,11 +1,31 @@
 {
-  "usuarios": [
-    {
-      "id": "7401",
-      "username": "jose miguel",
-      "email": "jo.moncadag@gmail.com",
-      "password": "moncada3",
+    "usuarios": [
+      {
+        "id": 1,
+        "username": "johndoe",
+        "email": "johndoe@example.com",
+        "password": "1234password",
+        "isactive": true
+      },
+      {
+        "id": 2,
+        "username": "janedoe",
+        "email": "janedoe@example.com",
+        "password": "securepass456",
+        "isactive": false
+      },
+      {
+        "id": 3,
+        "username": "mike_smith",
+        "email": "mikesmith@example.com",
+        "password": "mypassword789",
+        "isactive": true
+      }
+    ],
+    "userNuevo": {
+      "username": "newuser",
+      "email": "newuser@example.com",
+      "password": "newpassword",
       "isactive": true
     }
-  ]
-}
+  }
