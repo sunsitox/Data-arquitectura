@@ -1,0 +1,11 @@
+{
+  "usuarios": [
+    {
+      "id": "7401",
+      "username": "jose miguel",
+      "email": "jo.moncadag@gmail.com",
+      "password": "moncada3",
+      "isactive": true
+    }
+  ]
+}
